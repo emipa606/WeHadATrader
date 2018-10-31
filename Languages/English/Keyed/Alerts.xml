@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <PawnTrader>Trader{0} available</PawnTrader>
+  <PawnTraderDesc>Traders from these factions are visiting the colony:\n\n{0}</PawnTraderDesc>
+
+  <OrbitalTrader>Orbital trader{0} available</OrbitalTrader>
+  <OrbitalTraderDesc>These traders are currently in orbit:\n\n{0}\nUse the Comms console to trade with them.</OrbitalTraderDesc>
+
+</LanguageData>
