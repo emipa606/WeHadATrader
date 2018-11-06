@@ -1,5 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\we-had-a-trader\Assemblies\WeHadATrader.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\we-had-a-trader\Assemblies\WeHadATrader.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\we-had-a-trader\obj\Release\WeHadATrader.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\we-had-a-trader\obj\Release\WeHadATrader.pdb
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\we-had-a-trader\obj\Release\WeHadATrader.csprojResolveAssemblyReference.cache
