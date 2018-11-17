@@ -1,5 +1,4 @@
-﻿using RimWorld.Planet;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Verse;
@@ -8,18 +7,18 @@ namespace RimWorld
 {
     public class Alert_PawnTrader : Alert
     {
-        
+
         private IEnumerable<Pawn> TraderPawns
         {
             get
             {
                 return PawnsFinder.AllMaps_Spawned.Where(p =>
                 {
-                    return (p.trader != null && p.trader.CanTradeNow);
+                    return (p.CanTradeNow);
                 });
             }
         }
-        
+
         public override string GetLabel()
         {
             if (TraderPawns.Count() > 1)
@@ -29,7 +28,7 @@ namespace RimWorld
         public override string GetExplanation()
         {
             var stringBuilder = new StringBuilder();
-            foreach(Pawn pawn in TraderPawns)
+            foreach (Pawn pawn in TraderPawns)
                 stringBuilder.AppendLine("    " + pawn.Faction.Name);
 
             return string.Format("PawnTraderDesc".Translate(), stringBuilder.ToString());
@@ -37,12 +36,24 @@ namespace RimWorld
 
         public override AlertReport GetReport()
         {
-            Pawn pawn = TraderPawns.FirstOrDefault();
-            if (pawn == null)
-                return false;
-            return AlertReport.CulpritIs((GlobalTargetInfo)((Thing)pawn));
+            if (TraderPawns.Count() == 0) { return false; }
+            var selectedPawn = TraderPawns.FirstOrDefault();
+            var someoneSelected = false;
+            foreach (Pawn p in TraderPawns)
+            {
+                if(Find.Selector.IsSelected(p)) {
+                    someoneSelected = true;
+                    continue;
+                }
+                if(someoneSelected && !Find.Selector.IsSelected(p))
+                {
+                    selectedPawn = p;
+                    break;
+                }
+            }
+            return AlertReport.CulpritIs(selectedPawn);
         }
 
-        
+
     }
 }
