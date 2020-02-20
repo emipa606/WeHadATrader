@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>We Had a Trader? (Continued)</name>
+	<packageId>Mlie.WeHadATrader</packageId>
 	<supportedVersions>
 		<li>1.0</li>
+		<li>1.1</li>
 	</supportedVersions>
 	<author>Mlie</author>
 	<url>https://github.com/emipa606/WeHadATrader</url>
 	<description>Creates an alert when traders are on the map.
-Compatible with existent saves and other mods.
-
-This is a continuation of liebsams version that has not been updated since B18.
+Compatible with existant saves and other mods..
   </description>
 </ModMetaData>
