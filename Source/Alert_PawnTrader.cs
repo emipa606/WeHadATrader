@@ -1,6 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using Verse;
 
 namespace RimWorld
@@ -25,13 +25,13 @@ namespace RimWorld
                 return string.Format("PawnTrader".Translate(), "s");
             return string.Format("PawnTrader".Translate(), "");
         }
-        public override string GetExplanation()
+        public override TaggedString GetExplanation()
         {
-            var stringBuilder = new StringBuilder();
+            TaggedString returnString = new TaggedString();
             foreach (Pawn pawn in TraderPawns)
-                stringBuilder.AppendLine("    " + pawn.Faction.Name);
+                returnString += "    " + pawn.NameFullColored + ", " + pawn.Faction.NameColored + Environment.NewLine;
 
-            return string.Format("PawnTraderDesc".Translate(), stringBuilder.ToString());
+            return "PawnTraderDesc".Translate().Replace("{0}", "") + returnString;
         }
 
         public override AlertReport GetReport()

@@ -29,7 +29,7 @@ namespace RimWorld
             return string.Format("OrbitalTrader".Translate(), "");
         }
 
-        public override string GetExplanation()
+        public override TaggedString GetExplanation()
         {
             var stringBuilder = new StringBuilder();
             foreach (Map map in Find.Maps)
