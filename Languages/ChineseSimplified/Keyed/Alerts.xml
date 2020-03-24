@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PawnTrader>商队{0}可交易</PawnTrader>
+  <PawnTraderDesc>来自这个派系的商队正在拜访你的殖民地:\n\n{0}</PawnTraderDesc>
+
+  <OrbitalTrader>轨道商船{0}可交易</OrbitalTrader>
+  <OrbitalTraderDesc>有商船在星球轨道上:\n\n{0}\n使用通讯台与商船交易.</OrbitalTraderDesc>
+
+</LanguageData>
