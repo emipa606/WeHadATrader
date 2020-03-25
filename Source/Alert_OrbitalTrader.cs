@@ -25,8 +25,8 @@ namespace RimWorld
         {
             foreach (Map map in Find.Maps)
                 if (map.passingShipManager.passingShips.Count > 1)
-                    return string.Format("OrbitalTrader".Translate(), "s");
-            return string.Format("OrbitalTrader".Translate(), "");
+                    return "OrbitalTraderMulti".Translate();
+            return "OrbitalTraderSingle".Translate();
         }
 
         public override TaggedString GetExplanation()

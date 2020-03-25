@@ -22,8 +22,8 @@ namespace RimWorld
         public override string GetLabel()
         {
             if (TraderPawns.Count() > 1)
-                return string.Format("PawnTrader".Translate(), "s");
-            return string.Format("PawnTrader".Translate(), "");
+                return "PawnTraderMulti".Translate();
+            return "PawnTraderSingle".Translate();
         }
         public override TaggedString GetExplanation()
         {

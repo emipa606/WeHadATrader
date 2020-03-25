@@ -2,9 +2,13 @@
 <LanguageData>
 
   <PawnTrader>Trader{0} available</PawnTrader>
+  <PawnTraderSingle>Trader available</PawnTraderSingle>
+  <PawnTraderMulti>Traders available</PawnTraderMulti>
   <PawnTraderDesc>Traders from these factions are visiting the colony:\n\n{0}</PawnTraderDesc>
 
   <OrbitalTrader>Orbital trader{0} available</OrbitalTrader>
+  <OrbitalTraderSingle>Orbital trader available</OrbitalTraderSingle>
+  <OrbitalTraderMulti>Orbital traders available</OrbitalTraderMulti>
   <OrbitalTraderDesc>These traders are currently in orbit:\n\n{0}\nUse the Comms console to trade with them.</OrbitalTraderDesc>
 
 </LanguageData>
