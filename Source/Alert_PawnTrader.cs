@@ -14,11 +14,11 @@ namespace RimWorld
             {
                 return PawnsFinder.AllMaps_Spawned.Where(p =>
                 {
-                    return (p.CanTradeNow);
+                    return p.CanTradeNow;
                 });
             }
         }
-
+        
         public override string GetLabel()
         {
             if (TraderPawns.Count() > 1)
