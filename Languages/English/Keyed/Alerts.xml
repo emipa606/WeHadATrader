@@ -8,5 +8,10 @@
   <OrbitalTraderSingle>Orbital trader available</OrbitalTraderSingle>
   <OrbitalTraderMulti>Orbital traders available</OrbitalTraderMulti>
   <OrbitalTraderDesc>These traders are currently in orbit:\n\n{0}\nUse the Comms console to trade with them.</OrbitalTraderDesc>
+  <TraderShips>Trader ship{0} available</TraderShips>
+  <TraderShipsSingle>Trader ship available</TraderShipsSingle>
+  <TraderShipsMulti>Trader ships available</TraderShipsMulti>
+  <TraderShipsDesc>These traders are currently in orbit:\n\n{0}\nUse the Comms console to trade with them.</TraderShipsDesc>
+  <Shipfrom>Ship from </Shipfrom>
 
 </LanguageData>

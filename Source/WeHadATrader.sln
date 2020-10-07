@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeHadATrader", "WeHadATrader.csproj", "{9314AB29-01D8-4DB3-A1E1-2CCA3773BE70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeHadATrader", "WeHadATrader\WeHadATrader.csproj", "{9314AB29-01D8-4DB3-A1E1-2CCA3773BE70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
