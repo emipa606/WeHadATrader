@@ -5,7 +5,7 @@
 Update of Electric_Knards mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=865395290
 
-- The original has since been updated but does not include the "time left"-function so unless anyone disagrees I'm keeping this one active.
+- The original has since been updated but does not include the &quot;time left&quot;-function so unless anyone disagrees I&apos;m keeping this one active.
 - Added time left on orbital traders
 - Added support for Trader ships-mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2046222331
@@ -41,6 +41,7 @@ Source: https://github.com/liebasam/rimworld-mods
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
