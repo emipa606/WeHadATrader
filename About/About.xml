@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>We Had a Trader? (Continued)</name>
   <packageId>Mlie.WeHadATrader</packageId>
@@ -10,33 +10,37 @@
     <li>1.2</li>
     <li>1.3</li>
   </supportedVersions>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Electric_Knards mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=865395290
 
-- The original has since been updated but does not include the &quot;time left&quot;-function so unless anyone disagrees I&apos;m keeping this one active.
+- The original has since been updated but does not include the "time left"-function so unless anyone disagrees I'm keeping this one active.
 - Added time left on orbital traders
 - Added support for Trader ships-mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2046222331
 - Chinese language by: ℕ𝖎𝙰𝖓𝕪🅸 Όſ⅁
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/WeHadATrader][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
 [/table]
 
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 Creates an alert when traders are on the map.
 
 What can I say, I kept forgetting ¯\_(ツ)_/¯
 
 Source: https://github.com/liebasam/rimworld-mods
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -45,6 +49,5 @@ Source: https://github.com/liebasam/rimworld-mods
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [/list]
-
 </description>
 </ModMetaData>
