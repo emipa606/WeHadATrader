@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PawnTrader>Comerciante{0} disponible</PawnTrader>
+  <PawnTraderSingle>Comerciante disponible</PawnTraderSingle>
+  <PawnTraderMulti>Comerciantes disponibles</PawnTraderMulti>
+  <PawnTraderDesc>Comerciantes de estas facciones están visitando la colonia:\n\n{0}</PawnTraderDesc>
+  <OrbitalTrader>Comerciante orbital{0} disponible</OrbitalTrader>
+  <OrbitalTraderSingle>Comerciante orbital disponible</OrbitalTraderSingle>
+  <OrbitalTraderMulti>Comerciantes orbitales disponibles</OrbitalTraderMulti>
+  <OrbitalTraderDesc>Estos comerciantes se encuentran actualmente en órbita:\n\n{0}\nUtiliza la consola de comunicaciones para comerciar con ellos.</OrbitalTraderDesc>
+  <TraderShips>Nave mercante{0} disponible</TraderShips>
+  <TraderShipsSingle>Nave mercante disponible</TraderShipsSingle>
+  <TraderShipsMulti>Naves mercantes disponibles</TraderShipsMulti>
+  <TraderShipsDesc>Estas naves mercantes se encuentran actualmente en órbita:\n\n{0}\nUtiliza la consola de comunicaciones para comerciar con ellos.</TraderShipsDesc>
+  <Shipfrom>Nave de </Shipfrom>
+</LanguageData>
