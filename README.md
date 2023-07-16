@@ -10,6 +10,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=865395290
 - Added support for Trader ships-mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2046222331
 - Chinese language by: ℕ𝖎𝙰𝖓𝕪🅸 Όſ⅁
+- Spanish language by: Ferchu
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 
@@ -34,6 +35,4 @@ Source: https://github.com/liebasam/rimworld-mods
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/1541408076]Last updated 2023-03-31
+https://steamcommunity.com/sharedfiles/filedetails/changelog/1541408076]Last updated 2023-07-16

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using RimWorld;
 using Verse;
 
-namespace RimWorld;
+namespace WeHadATrader;
 
 public class Alert_PawnTrader : Alert
 {
@@ -37,7 +38,19 @@ public class Alert_PawnTrader : Alert
 
     private IEnumerable<Pawn> TraderPawns
     {
-        get { return PawnsFinder.AllMaps_Spawned.Where(p => p.CanTradeNow); }
+        get
+        {
+            var traders = PawnsFinder.AllMaps_Spawned.Where(p => p.CanTradeNow);
+            if (!WeHadATraderMod.instance.Settings.IgnoreGuests)
+            {
+                return traders;
+            }
+
+            traders = traders.Where(pawn => pawn.GuestStatus != GuestStatus.Guest);
+            traders = traders.Where(pawn => pawn.trader.traderKind?.defName.ToLower().Contains("visitor") == false);
+
+            return traders;
+        }
     }
 
     public override string GetLabel()

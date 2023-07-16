@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TabulaRasa.UpdateDef Abstract="true" Name="WeHadATrader_UpdateInfoBase">
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1541408076</linkUrl>
+		<banner>UpdateInfo/WeHadATrader</banner>
+	</TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="WeHadATrader_UpdateInfoBase">
+		<defName>WeHadATrader_1_4_3</defName>
+		<date>2023/7/16</date>
+		<content>There is now a mod-option to ignore visitors
+This also includes guests from the Hospitality mod</content>
+	</TabulaRasa.UpdateDef>
+</Defs>
+

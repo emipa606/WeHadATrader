@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <WHAT.IgnoreGuests.Label>Ignore guests of the colony</WHAT.IgnoreGuests.Label>
+  <WHAT.IgnoreGuests.Tooltip>Will not show the alert for pawns that are guests of the colony, like visitors or guests from the Hospitality mod.</WHAT.IgnoreGuests.Tooltip>
+  <WHAT.ModVersion.Label>Installed mod-version: {0}</WHAT.ModVersion.Label>
+</LanguageData>

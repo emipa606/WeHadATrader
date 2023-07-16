@@ -13,4 +13,5 @@
   <TraderShipsMulti>Торговые суда в наличии</TraderShipsMulti>
   <TraderShipsDesc>Эти торговцы сейчас находятся на орбите:\n\n{0}\nИспользуйте консоль связи для торговли с ними.</TraderShipsDesc>
   <Shipfrom>Корабль из</Shipfrom>
+  <TraderShips>Торговое судно{0} доступно</TraderShips>
 </LanguageData>

@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Linq;
 using System.Text;
+using RimWorld;
 using Verse;
 
-namespace RimWorld;
+namespace WeHadATrader;
 
 public class Alert_OrbitalTrader : Alert
 {
