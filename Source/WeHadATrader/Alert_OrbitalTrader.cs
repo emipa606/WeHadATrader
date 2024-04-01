@@ -9,7 +9,7 @@ namespace WeHadATrader;
 public class Alert_OrbitalTrader : Alert
 {
     /// <summary>
-    ///     Returns ticks in human readable time left
+    ///     Returns ticks in human-readable time left
     /// </summary>
     /// <param name="ticks"></param>
     /// <returns></returns>
@@ -17,11 +17,11 @@ public class Alert_OrbitalTrader : Alert
     {
         if (ticks < 2500)
         {
-            return "less than an hour";
+            return "LessThanAnHour".Translate();
         }
 
         var hours = Math.Ceiling((decimal)ticks / 2500);
-        return hours == 1 ? "about an hour" : $"{hours} hours";
+        return hours == 1 ? "AboutAnHour".Translate() : "AmountOfHours".Translate(hours.ToString());
     }
 
     public override string GetLabel()
@@ -41,10 +41,12 @@ public class Alert_OrbitalTrader : Alert
     {
         var stringBuilder = new StringBuilder();
         foreach (var map in Find.Maps)
-        foreach (var ship in map.passingShipManager.passingShips)
         {
-            stringBuilder.AppendLine(ship.FullTitle);
-            stringBuilder.AppendLine($"Leaves in {TicksToHumanTime(ship.ticksUntilDeparture)}");
+            foreach (var ship in map.passingShipManager.passingShips)
+            {
+                stringBuilder.AppendLine(ship.FullTitle);
+                stringBuilder.AppendLine($"Leaves in {TicksToHumanTime(ship.ticksUntilDeparture)}");
+            }
         }
 
         return string.Format("OrbitalTraderDesc".Translate(), stringBuilder);

@@ -14,4 +14,7 @@
   <TraderShipsMulti>Navires de commerce disponibles</TraderShipsMulti>
   <TraderShipsDesc>Ces commerçants sont actuellement en orbite : utilisez la console de communication pour commercer avec eux.</TraderShipsDesc>
   <Shipfrom>Expédition à partir de</Shipfrom>
+  <LessThanAnHour>moins d'une heure</LessThanAnHour>
+  <AboutAnHour>environ une heure</AboutAnHour>
+  <AmountOfHours>{0} heures</AmountOfHours>
 </LanguageData>

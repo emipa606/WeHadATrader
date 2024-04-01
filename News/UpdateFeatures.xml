@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<HugsLib.UpdateFeatureDef Abstract="true" Name="WeHadATrader_UpdateFeatureBase">
-		<modNameReadable>WeHadATrader</modNameReadable>
-		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1541408076</linkUrl>
-	</HugsLib.UpdateFeatureDef>
-	<HugsLib.UpdateFeatureDef ParentName="WeHadATrader_UpdateFeatureBase">
-		<defName>WeHadATrader_1_4_3</defName>
-		<assemblyVersion>1.4.3</assemblyVersion>
-		<content>There is now a mod-option to ignore visitors
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="WeHadATrader_UpdateFeatureBase">
+    <modNameReadable>WeHadATrader</modNameReadable>
+    <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1541408076</linkUrl>
+  </HugsLib.UpdateFeatureDef>
+  <HugsLib.UpdateFeatureDef ParentName="WeHadATrader_UpdateFeatureBase">
+    <defName>WeHadATrader_1_4_3</defName>
+    <assemblyVersion>1.4.3</assemblyVersion>
+    <content>There is now a mod-option to ignore visitors
 This also includes guests from the Hospitality mod</content>
-	</HugsLib.UpdateFeatureDef>
+  </HugsLib.UpdateFeatureDef>
 </Defs>
-

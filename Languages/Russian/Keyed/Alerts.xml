@@ -14,4 +14,7 @@
   <TraderShipsDesc>Эти торговцы сейчас находятся на орбите:\n\n{0}\nИспользуйте консоль связи для торговли с ними.</TraderShipsDesc>
   <Shipfrom>Корабль из</Shipfrom>
   <TraderShips>Торговое судно{0} доступно</TraderShips>
+  <LessThanAnHour>менее часа</LessThanAnHour>
+  <AboutAnHour>около часа</AboutAnHour>
+  <AmountOfHours>{0} часов</AmountOfHours>
 </LanguageData>

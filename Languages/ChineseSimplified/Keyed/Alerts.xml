@@ -14,4 +14,7 @@
   <TraderShipsMulti>可供交易的船舶</TraderShipsMulti>
   <TraderShipsDesc>这些商人目前在轨道上：使用通讯控制台与他们交易。</TraderShipsDesc>
   <Shipfrom>船只来自</Shipfrom>
+  <LessThanAnHour>不到一小时</LessThanAnHour>
+  <AboutAnHour>约一小时</AboutAnHour>
+  <AmountOfHours>{0}小时</AmountOfHours>
 </LanguageData>

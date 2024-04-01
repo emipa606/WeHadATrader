@@ -13,4 +13,7 @@
   <TraderShipsMulti>Trader ships available</TraderShipsMulti>
   <TraderShipsDesc>These traders are currently in orbit:\n\n{0}\nUse the Comms console to trade with them.</TraderShipsDesc>
   <Shipfrom>Ship from </Shipfrom>
+  <LessThanAnHour>less than an hour</LessThanAnHour>
+  <AboutAnHour>about an hour</AboutAnHour>
+  <AmountOfHours>{0} hours</AmountOfHours>
 </LanguageData>

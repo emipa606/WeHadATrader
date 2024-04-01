@@ -14,4 +14,7 @@
   <TraderShipsMulti>Händlerschiffe verfügbar</TraderShipsMulti>
   <TraderShipsDesc>Diese Händler befinden sich derzeit im Orbit: Benutzen Sie die Comms-Konsole, um mit ihnen zu handeln.</TraderShipsDesc>
   <Shipfrom>Schiff von</Shipfrom>
+  <LessThanAnHour>weniger als eine Stunde</LessThanAnHour>
+  <AboutAnHour>etwa eine Stunde</AboutAnHour>
+  <AmountOfHours>{0} Stunden</AmountOfHours>
 </LanguageData>
