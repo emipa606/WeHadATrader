@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <PawnTrader>Trader{0} available</PawnTrader>
   <PawnTraderSingle>Trader available</PawnTraderSingle>
@@ -15,5 +15,6 @@
   <Shipfrom>Ship from </Shipfrom>
   <LessThanAnHour>less than an hour</LessThanAnHour>
   <AboutAnHour>about an hour</AboutAnHour>
+  <PawnTraderLeavesIn>Leaves in {0}</PawnTraderLeavesIn>
   <AmountOfHours>{0} hours</AmountOfHours>
 </LanguageData>

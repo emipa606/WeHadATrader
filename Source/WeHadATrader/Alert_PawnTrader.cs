@@ -8,7 +8,7 @@ namespace WeHadATrader;
 
 public class Alert_PawnTrader : Alert
 {
-    private List<Building> TraderShips
+    private static List<Building> TraderShips
     {
         get
         {
@@ -36,12 +36,12 @@ public class Alert_PawnTrader : Alert
         }
     }
 
-    private IEnumerable<Pawn> TraderPawns
+    private static IEnumerable<Pawn> TraderPawns
     {
         get
         {
             var traders = PawnsFinder.AllMaps_Spawned.Where(p => p.CanTradeNow);
-            if (!WeHadATraderMod.instance.Settings.IgnoreGuests)
+            if (!WeHadATraderMod.Instance.Settings.IgnoreGuests)
             {
                 return traders;
             }

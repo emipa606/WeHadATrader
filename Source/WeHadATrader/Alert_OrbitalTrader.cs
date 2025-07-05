@@ -13,7 +13,7 @@ public class Alert_OrbitalTrader : Alert
     /// </summary>
     /// <param name="ticks"></param>
     /// <returns></returns>
-    private static string TicksToHumanTime(int ticks)
+    private static string ticksToHumanTime(int ticks)
     {
         if (ticks < 2500)
         {
@@ -45,7 +45,7 @@ public class Alert_OrbitalTrader : Alert
             foreach (var ship in map.passingShipManager.passingShips)
             {
                 stringBuilder.AppendLine(ship.FullTitle);
-                stringBuilder.AppendLine($"Leaves in {TicksToHumanTime(ship.ticksUntilDeparture)}");
+                stringBuilder.AppendLine("PawnTraderLeavesIn".Translate(ticksToHumanTime(ship.ticksUntilDeparture)));
             }
         }
 
